@@ -3,7 +3,7 @@ from pymongo import MongoClient, WriteConcern, ReadPreference
 
 app = Flask(__name__)
 
-MONGO_URI = "mongodb+srv://hitte_db_user:h4BgPmHtGG9Ew0qS@lab6cluster.9nu5jeu.mongodb.net/?appName=Lab6Cluster"
+MONGO_URI = "mongodb+srv://USERNAME:PASSWORD@lab6cluster.9nu5jeu.mongodb.net/?appName=Lab6Cluster"
 client = MongoClient(MONGO_URI)
 db = client.ev_db
 collection = db.vehicles
